@@ -17,6 +17,10 @@ body{
     position: relative;
 }
 
+.page{
+    display: none;
+}
+
 /* Start Variables */
 :root{
     --headings-color: #10cab7;
