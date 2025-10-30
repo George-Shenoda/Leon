@@ -501,7 +501,7 @@ header .links:hover ul{
 .top{
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: -40px;
     border-radius: 9999px;
     background-color: #10cab7;
     border: 0;
@@ -514,6 +514,15 @@ header .links:hover ul{
     justify-content: center;
     text-align: center;
     align-items: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.show{
+    right: 20px;
 }
 
 .top a{

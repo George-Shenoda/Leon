@@ -1,8 +1,9 @@
-window.onload = function (){
-    document.querySelector('.loading').style.opacity = '0';
-    setTimeout(()=>{
-        document.querySelector('.loading').style.display = 'none';
-        document.querySelector('.page').style.display = 'block';
-}, 500);
+let to = document.querySelector(".top");
+window.onscroll = function (){
+    if(this.pageYOffset >= 700){
+        to.classList.add("show");
+    }
+    else{
+        to.classList.remove("show");
+    }
 };
-
