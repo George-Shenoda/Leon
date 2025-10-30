@@ -476,6 +476,7 @@ header .links:hover ul{
     font-size: 30px;
     letter-spacing: -2px;
     margin-bottom: 15px;
+    max-width: 100%;
 }
 
 .contact a{
@@ -484,6 +485,12 @@ header .links:hover ul{
     font-size: 30px;
     color: var(--headings-color);
     font-weight: 800;
+}
+
+@media (max-width:767px) {
+    .contact a{
+        font-size: 20px;
+    }
 }
 
 .contact .social{
